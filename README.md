@@ -16,7 +16,7 @@ This does *not* read in tracks from subfolders.
 
 5. Start a track with 
 ```gdscript
-MusicController.switch_track("trackname.ogg|mp3|wav").
+MusicController.switch_track("trackname.ogg|mp3|wav")
 ```
 
 Tracks loop forever until switched.
