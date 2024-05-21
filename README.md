@@ -5,8 +5,8 @@ This adds a singleton Node to your project that plays music, even across scene c
 
 ## Usage
 1. Install the plugin through the Godot asset manager.
-2. Enable the plugin ![Enable Plugin screenshot](/addons/timchi_global_music_player/screenshots/plugin_enabled.png "Enable Plugin screenshot")
-3. Add the node to the Autoload ![Autoload screenshot](/addons/timchi_global_music_player/screenshots/autoload.png "Autoload screenshot")
+2. Enable the plugin ![Enable Plugin screenshot](/addons/timchi_global_music_player/assets/plugin_enabled.png "Enable Plugin screenshot")
+3. Add the node to the Autoload ![Autoload screenshot](/addons/timchi_global_music_player/assets/autoload.png "Autoload screenshot")
 4. Music is loaded by default from "res://music". This can be changed with: 
 ```gdscript
 MusicController.TRACKS_LOCATION
