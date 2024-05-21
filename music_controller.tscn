@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://68xdsbo7d6pc"]
+
+[ext_resource type="Script" path="res://addons/timchi_global_music_player/music_controller.gd" id="1_b8q1n"]
+
+[node name="MusicController" type="Node"]
+script = ExtResource("1_b8q1n")
+
+[node name="Player1" type="AudioStreamPlayer" parent="."]
+
+[node name="Player2" type="AudioStreamPlayer" parent="."]
+
+[node name="Player3" type="AudioStreamPlayer" parent="."]
