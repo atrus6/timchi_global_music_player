@@ -9,12 +9,17 @@ This adds a singleton Node to your project that plays music, even across scene c
 3. Add the node to the Autoload ![Autoload screenshot](/addons/timchi_global_music_player/assets/autoload.png "Autoload screenshot")
 4. Music is loaded by default from "res://music". This can be changed with: 
 ```gdscript
-MusicController.TRACKS_LOCATION
+MusicController.TRACKS_LOCATION = "res://your/path/to/music"
 MusicController.load_tracks()
 ```
 This does *not* read in tracks from subfolders.
 
-5. Start a track with MusicController.switch_track("trackname.ogg|mp3|wav"). Tracks loop forever until switched.
+5. Start a track with 
+```gdscript
+MusicController.switch_track("trackname.ogg|mp3|wav").
+```
+
+Tracks loop forever until switched.
 Need an example? See [github] for a simple example project.
 
 
