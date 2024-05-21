@@ -20,7 +20,7 @@ MusicController.switch_track("trackname.ogg|mp3|wav")
 ```
 
 Tracks loop forever until switched.
-Need an example? See [github] for a simple example project.
+Need an example? See [github](https://github.com/atrus6/tgmp_example) for a simple example project.
 
 
 ## Future Roadmap
